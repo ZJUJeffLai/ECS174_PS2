@@ -43,7 +43,7 @@
 \definecolor{mylilas}{RGB}{170,55,241}
 %%% FIX BELOW
 \usepackage{blindtext}
-\title{ECS 174 Project 1}
+\title{ECS 174 Project 2}
 \author{
   Jiayi Lei\\
   SID: 915016668\\
@@ -129,17 +129,10 @@ for each pixel in boundary(blob):
 
 \begin{section}{Short Programming}
 \begin{subsection}{(a)}
-Matlab CODE:\\
-\begin{lstlisting}[frame=single]  % Start your code-block
-%% (a)
-clc;clf;clear all;
-inputIm = imread('wdc1.jpg');
-refIm = imread('wdc2.jpg');
-points1 = GetPoints(inputIm);
-points2 = GetPoints(refIm);
-save points.mat points1 points2 
 
-\end{lstlisting}
+\section*{Matlab Code}
+
+\lstinputlisting{GetPoints.m}
 
 
 \end{subsection}
@@ -224,7 +217,32 @@ save points.mat points1 points2
 \end{subsection}
 \clearpage
 \begin{subsection}{(f)}
+\textbf{Input image and billboard image:}\\
 
+In this problem, we are trying to merge the image of the slide into the empty rectangle in the board.\\
+\begin{figure}[!htb]
+        \center{\includegraphics[width=10cm]
+        {slide.png}}
+        \caption{slid.png}
+      \end{figure}
+      
+      \begin{figure}[!htb]
+        \center{\includegraphics[width=10cm]
+        {board.png}}
+        \caption{board.png}
+      \end{figure}
+      
+      \begin{figure}[!htb]
+        \center{\includegraphics[width=10cm]
+        {slide_warp.png}}
+        \caption{slide\_warp.png}
+      \end{figure}
+      
+          \begin{figure}[!htb]
+        \center{\includegraphics[width=10cm]
+        {slide_merge.png}}
+        \caption{slide\_merge.png}
+      \end{figure}
 
 \end{subsection}
 
@@ -264,6 +282,27 @@ imwrite(mergeIm,'crop_merge_RANSAC.jpg');
         {crop_merge_RANSAC.png}}
         \caption{Merge Image oby using RANSAC}
       \end{figure}
+
+\clearpage
+\textbf{In Comparision, outputs wiht non-RANSAC}\\
+We can not see too much difference between outputs given by RANSAC and outputs given by Non-RANSAC.\\
+
+ \begin{figure}[!htb]
+       \center
+       {\includegraphics[width=10cm]
+       {crop_warp.png}}
+        \caption{Warped Image of crop 1}
+      \end{figure}
+
+
+
+\begin{figure}[!htb]
+        \center{\includegraphics[width=10cm]
+        {crop_merge.png}}
+        \caption{Merge Image of crop1 and crop2}
+      \end{figure}
+      
+
 
 \end{section}
 

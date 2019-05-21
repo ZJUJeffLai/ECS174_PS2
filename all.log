@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.7)  20 MAY 2019 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.4.7)  20 MAY 2019 22:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,25 +866,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [1
 
-{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package Listings Warning: Text dropped after begin of listing on input line 135
-.
-
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 136.
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./GetPoints.m
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5.
 
 (c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [2]
+)) [2]
 <crop_warp.png, id=18, 318.18875pt x 451.6875pt>
 File: crop_warp.png Graphic file (type png)
 <use crop_warp.png>
-Package pdftex.def Info: crop_warp.png  used on input line 169.
+Package pdftex.def Info: crop_warp.png  used on input line 162.
 (pdftex.def)             Requested size: 284.52756pt x 403.90285pt.
 <crop_merge.png, id=19, 946.53625pt x 525.965pt>
 File: crop_merge.png Graphic file (type png)
 <use crop_merge.png>
-Package pdftex.def Info: crop_merge.png  used on input line 177.
+Package pdftex.def Info: crop_merge.png  used on input line 170.
 (pdftex.def)             Requested size: 284.52756pt x 158.1037pt.
  [3
 
@@ -892,64 +888,100 @@ Package pdftex.def Info: crop_merge.png  used on input line 177.
 <wdc_warp.png, id=23, 401.5pt x 400.49625pt>
 File: wdc_warp.png Graphic file (type png)
 <use wdc_warp.png>
-Package pdftex.def Info: wdc_warp.png  used on input line 188.
+Package pdftex.def Info: wdc_warp.png  used on input line 181.
 (pdftex.def)             Requested size: 284.52756pt x 283.83488pt.
 <wdc_merge.png, id=24, 844.15375pt x 891.33pt>
 File: wdc_merge.png Graphic file (type png)
 <use wdc_merge.png>
-Package pdftex.def Info: wdc_merge.png  used on input line 196.
+Package pdftex.def Info: wdc_merge.png  used on input line 189.
 (pdftex.def)             Requested size: 284.52756pt x 300.43687pt.
  [4 <./wdc_warp.png> <./wdc_merge.png>]
 <MU_warp.png, id=28, 642.4pt x 478.78876pt>
 File: MU_warp.png Graphic file (type png)
 <use MU_warp.png>
-Package pdftex.def Info: MU_warp.png  used on input line 210.
+Package pdftex.def Info: MU_warp.png  used on input line 203.
 (pdftex.def)             Requested size: 284.52756pt x 212.0631pt.
 <MU_merge.png, id=29, 1716.4125pt x 1085.05376pt>
 File: MU_merge.png Graphic file (type png)
 <use MU_merge.png>
-Package pdftex.def Info: MU_merge.png  used on input line 218.
+Package pdftex.def Info: MU_merge.png  used on input line 211.
 (pdftex.def)             Requested size: 284.52756pt x 179.85397pt.
  [5
 
- <./MU_warp.png> <./MU_merge.png>] [6
+ <./MU_warp.png> <./MU_merge.png>]
+<slide.png, id=33, 974.64125pt x 522.95375pt>
+File: slide.png Graphic file (type png)
+<use slide.png>
+Package pdftex.def Info: slide.png  used on input line 225.
+(pdftex.def)             Requested size: 284.52756pt x 152.6661pt.
+<board.png, id=34, 614.295pt x 409.53pt>
+File: board.png Graphic file (type png)
+<use board.png>
+Package pdftex.def Info: board.png  used on input line 231.
+(pdftex.def)             Requested size: 284.52756pt x 189.68585pt.
+<slide_warp.png, id=35, 614.295pt x 409.53pt>
+File: slide_warp.png Graphic file (type png)
+<use slide_warp.png>
+Package pdftex.def Info: slide_warp.png  used on input line 237.
+(pdftex.def)             Requested size: 284.52756pt x 189.68585pt.
+<slide_merge.png, id=36, 692.5875pt x 409.53pt>
+File: slide_merge.png Graphic file (type png)
+<use slide_merge.png>
+Package pdftex.def Info: slide_merge.png  used on input line 243.
+(pdftex.def)             Requested size: 284.52756pt x 168.24582pt.
+ [6
 
-]
+ <./slide.png> <./board.png>] [7 <./slide_warp.png> <./slide_merge.png>]
 
-Package Listings Warning: Text dropped after begin of listing on input line 237
+Package Listings Warning: Text dropped after begin of listing on input line 255
 .
 
-<crop_warp_RANSAC.png, id=36, 318.18875pt x 451.6875pt>
+<crop_warp_RANSAC.png, id=44, 318.18875pt x 451.6875pt>
 File: crop_warp_RANSAC.png Graphic file (type png)
 <use crop_warp_RANSAC.png>
-Package pdftex.def Info: crop_warp_RANSAC.png  used on input line 256.
+Package pdftex.def Info: crop_warp_RANSAC.png  used on input line 274.
 (pdftex.def)             Requested size: 284.52756pt x 403.90285pt.
-<crop_merge_RANSAC.png, id=37, 907.39pt x 530.98375pt>
+<crop_merge_RANSAC.png, id=45, 907.39pt x 530.98375pt>
 File: crop_merge_RANSAC.png Graphic file (type png)
 <use crop_merge_RANSAC.png>
-Package pdftex.def Info: crop_merge_RANSAC.png  used on input line 264.
+Package pdftex.def Info: crop_merge_RANSAC.png  used on input line 282.
 (pdftex.def)             Requested size: 284.52756pt x 166.49916pt.
-[7
+[8
 
- <./crop_warp_RANSAC.png>] [8 <./crop_merge_RANSAC.png>] (./computeH.m
+ <./crop_warp_RANSAC.png>] [9 <./crop_merge_RANSAC.png>]
+Overfull \hbox (21.71103pt too wide) in paragraph at lines 288--288
+[]\OT1/cmr/m/n/12 We can not see too much dif-fer-ence be-tween out-puts given 
+by RANSAC and out-puts given by Non-RANSAC.  
+ []
+
+File: crop_warp.png Graphic file (type png)
+<use crop_warp.png>
+Package pdftex.def Info: crop_warp.png  used on input line 293.
+(pdftex.def)             Requested size: 284.52756pt x 403.90285pt.
+File: crop_merge.png Graphic file (type png)
+<use crop_merge.png>
+Package pdftex.def Info: crop_merge.png  used on input line 301.
+(pdftex.def)             Requested size: 284.52756pt x 158.1037pt.
+[10
+
+] (./computeH.m
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 7.
-
-(c:/texlive/2017/texmf-dist/tex/latex/base/omlcmr.fd
+ (c:/texlive/2017/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
-) [9
+)
+[11
 
-] (./warpImage.m
-[10
+] (./warpImage.m [12
 
-]) [11] (./all.aux) ) 
+]) [13] (./all.aux) ) 
 Here is how much of TeX's memory you used:
- 18028 strings out of 492982
- 324503 string characters out of 6136226
+ 18064 strings out of 492982
+ 324959 string characters out of 6136226
  521132 words of memory out of 5000000
- 21204 multiletter control sequences out of 15000+600000
+ 21233 multiletter control sequences out of 15000+600000
  12740 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,72p,566b,2127s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -961,10 +993,10 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017
 t/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
 /cm-super/sfrm1200.pfb>
-Output written on all.pdf (11 pages, 550384 bytes).
+Output written on all.pdf (13 pages, 825009 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
