@@ -54,4 +54,19 @@ H = computeH(p1,p2);
 [warpIm, mergeIm] = warpImage(inputIm, refIm, H);
 imwrite(warpIm,'slide_warp.jpg');
 imwrite(mergeIm,'slide_merge.jpg');
+<<<<<<< HEAD
 %}
+=======
+
+%% Optional (a) RANSAC
+clc;clf;
+inputIm = imread('crop1.jpg');
+refIm = imread('crop2.jpg');
+t1 = importdata('cc1.mat');
+t2 = importdata('cc2.mat');
+H = RANSAC(t1,t2);
+disp(H);
+[warpIm, mergeIm] = warpImage(inputIm, refIm, H);
+imwrite(warpIm,'crop_warp_RANSAC.jpg');
+imwrite(mergeIm,'crop_merge_RANSAC.jpg');
+>>>>>>> f003eadd7b0e9697f9a0dae5d7a1ea4ff0a19cac
