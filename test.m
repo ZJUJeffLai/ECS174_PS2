@@ -33,6 +33,7 @@ imwrite(mergeIm,'wdc_merge.jpg');
 %}
 %}
 %%% (e) www.card.zju.edu.cn
+%{
 %% (e) photos taken by Jiayi Lei
 clc;clf;clear all;
 inputIm = imread('MU1.jpg');
@@ -43,7 +44,7 @@ H = computeH(p1,p2);
 [warpIm, mergeIm] = warpImage(inputIm, refIm, H);
 imwrite(warpIm,'MU_warp.jpg');
 imwrite(mergeIm,'MU_merge.jpg');
-
+%}
 %% (f) 
 clc;clf;clear all;
 inputIm = imread('slide.jpg');
@@ -54,10 +55,7 @@ H = computeH(p1,p2);
 [warpIm, mergeIm] = warpImage(inputIm, refIm, H);
 imwrite(warpIm,'slide_warp.jpg');
 imwrite(mergeIm,'slide_merge.jpg');
-<<<<<<< HEAD
-%}
-=======
-
+%{
 %% Optional (a) RANSAC
 clc;clf;
 inputIm = imread('crop1.jpg');
@@ -69,4 +67,4 @@ disp(H);
 [warpIm, mergeIm] = warpImage(inputIm, refIm, H);
 imwrite(warpIm,'crop_warp_RANSAC.jpg');
 imwrite(mergeIm,'crop_merge_RANSAC.jpg');
->>>>>>> f003eadd7b0e9697f9a0dae5d7a1ea4ff0a19cac
+%}
